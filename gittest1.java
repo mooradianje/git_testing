@@ -16,6 +16,8 @@ git branch
 
 you can STAGE and COMMIT each file with the following
 git add [filename.ext]
+git add .
+^adds all files in directory
 git commit -m "this is a message for when you upload a change"
 
 this only does it on the LOCAL side of things - 
@@ -32,6 +34,8 @@ git status
 git checkout -- [filename.ext]
 ^this restores the last backup for git
 
+NEW NOTE 2/4 
+    git repo must be initialized on github in order to push 
 
 
 public class gittest1 {
